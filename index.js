@@ -43,7 +43,7 @@ client.on('message', message => {
         umpatan = ['bacot', 'gaasik', 'durjana', 'sok iye'];
         random = Math.floor(Math.random() * umpatan.length);
             if (!args.length || !message.mentions.users.size) {
-                message.reply('mau ngatain tapi gak ditag orangnya, ngontol amat');
+                message.reply('mau ngatain tapi gak ditag orangnya, rusuh amat');
             }
             else {
                 message.channel.send(tagged.username +' '+ umpatan[random] +' lo');
@@ -51,10 +51,10 @@ client.on('message', message => {
             }
         break;
         
-        case "cersex":
+        case "cerita":
         subjek = ['mikmek', 'bowo', 'ario', 'goji', 'pian', 'dep', 'parhan', 'futa', 'banci', 'sapi', 'onta', 'jin iprit', 'kuyang'];
-        predikat = ['ngewe', 'nyepong', 'bdsm', 'diraep', 'wolsom seks with'];
-        keterangan = ['mindbreak', 'anaknya 7', 'ugly bastard juga ikutan', 'jadi presiden 3 periode', 'sarjana', '216 banjir cum'];
+        predikat = ['dihajar', 'naek', 'makan bareng', 'dikejar-kejar', 'ke pasar malem'];
+        keterangan = ['avatar numbuh rambut', 'anaknya 7', 'maradona juga ikutan', 'jadi presiden 3 periode', 'sarjana', '216 banjir duit'];
         rands = Math.floor(Math.random() * subjek.length);
         rands2 = Math.floor(Math.random() * subjek.length);
         randp = Math.floor(Math.random() * predikat.length);
